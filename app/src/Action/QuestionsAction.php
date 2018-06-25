@@ -25,7 +25,7 @@ final class QuestionsAction
         
         return $response
             ->withJson($this->questions)
-            ->withHeader('Access-Control-Allow-Origin', 'http://pure-ravine-27491.herokuapp.com')
+            ->withHeader('Access-Control-Allow-Origin', 'http://mysterious-thicket-51528.herokuapp.com')
             ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
             ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');            
 
